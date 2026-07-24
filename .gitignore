@@ -1,0 +1,84 @@
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# BUILD ARTIFACTS & DISTRIBUTION
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+
+*.egg
+*.egg-info/
+*.manifest
+*.pot
+*.py[co]
+*.pyd
+*.so
+*.spec
+.installed.cfg
+dist/
+MANIFEST
+sdist/
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# DEPENDENCY MANAGEMENT & PACKAGE CACHE
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+
+.eggs/
+.pdm-build/
+.pdm.toml
+.pip-wheel-metadata/
+.pybuilder/
+.python-eggs/
+.python-version
+.venv
+__pypackages__/
+develop-eggs/
+downloads/
+eggs/
+env.bak/
+ENV/
+pip-delete-this-directory.txt
+pip-log.txt
+share/python-wheels/
+venv.bak/
+venv/
+wheels/
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# DEVELOPMENT & RUNTIME ARTIFACTS
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+
+.dmypy.json
+.ipynb_checkpoints/
+.mypy_cache/
+.Python
+__pycache__/
+dmypy.json
+docs/_build/
+instance/
+ipython_config.py
+lib/
+lib64/
+parts/
+profile_default/
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# LANGUAGE-SPECIFIC PATTERNS
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+
+.nox/
+.pyre/
+.pytype/
+.scrapy
+.tox/
+cover/
+cython_debug/
+
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+# TESTING & QUALITY ASSURANCE
+# ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+
+.coverage
+.coverage.*
+.coverage.xml
+.coverage_html/
+.hypothesis/
+.pytest_cache/
+htmlcov/
+nosetests.xml
